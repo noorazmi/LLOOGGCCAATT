@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:gravity="center_vertical|center_horizontal">
+
+   <!--  <TextView
+        android:id="@+id/username_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:gravity="left"
+        android:text="@string/file_name"
+        android:textAppearance="?android:attr/textAppearanceMedium" /> -->
+
+    <EditText
+        android:id="@+id/file_name_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:inputType="textCapWords"
+        android:gravity="fill_horizontal"
+        android:scrollHorizontally="true"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:hint="@string/file_name"/>
+<!-- 
+    <TextView
+        android:id="@+id/password_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:gravity="left"
+        android:text="@string/alert_dialog_password"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/password_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:autoText="false"
+        android:capitalize="none"
+        android:gravity="fill_horizontal"
+        android:password="true"
+        android:scrollHorizontally="true"
+        android:textAppearance="?android:attr/textAppearanceMedium" /> -->
+
+</LinearLayout>

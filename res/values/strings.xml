@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CatLogTTest</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_back">Back</string>
+    <string name="search">Search</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="intent_chooser_message">Choose any sharing facility...</string>
+    <string name="saved_logs_provider_authority">com.gl.provider.SavedLogsProvider</string>
+    <string name="sd_card_not_available_to_write">SD card is not available to write.</string>
+    <string name="error_saving_file">Error in saving the file.Please try again.</string>
+    
+
+    <string-array name="drawer_options">
+        <item>Current Logs</item>
+        <item>Saved Logs</item>
+    </string-array>
+    <string-array name="filter_options">
+         <item>Verbose</item>
+        <item>Debug</item>
+        <item>Info</item>
+        <item>Warning</item>
+        <item>Error</item>
+        <item>WTF</item>
+    </string-array>
+        <string name="log_filter">Log Filter</string>
+        <string name="share">Share</string>
+        <string name="pause">Pause</string>
+        <string name="play">Play</string>
+        <string name="clear">Clear</string>
+        <string name="more_options">More Optiopns</string>
+        <string name="save">Save</string>
+        <string name="file_name">File Name</string>
+        <string name="enter_file_name">Enter file name</string>
+        <string name="invalid_file_name">Invalid file name</string>
+        <string name="file_name_empty_message">File name can not be empty</string>
+        <string name="ok">OK</string>
+        <string name="cancel">Cancel</string>
+        <string name="service_thread">SaveLogServiceThread</string>
+        <string name="no_data">No data</string>
+        <string name="one_selected">1 selected</string>
+        <string name="selectall">SelectAll</string>
+        <string name="delete">Delete</string>
+
+</resources>

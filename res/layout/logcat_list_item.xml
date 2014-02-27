@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="1dp"
+    android:paddingLeft="3dp"
+    android:paddingRight="3dp"
+    android:paddingTop="2dp" >
+
+    <TextView
+        android:id="@+id/pid_text"
+        android:layout_width="@dimen/pid_width"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:paddingRight="2dp"
+        android:singleLine="true"
+        android:text="6177"
+        android:textSize="12sp"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/timestamp_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/pid_text"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:singleLine="true"
+        android:text="12 June 2011"
+        android:textSize="12sp"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/tag_text"
+        android:layout_width="@dimen/tag_width"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/pid_text"
+        android:paddingRight="2dp"
+        android:text="SomeActivity"
+        android:textSize="12sp"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/log_level_text"
+        android:layout_width="@dimen/log_level_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pid_text"
+        android:layout_toRightOf="@+id/tag_text"
+        android:gravity="center_horizontal"
+        android:text="D"
+        android:textSize="12sp"
+        android:typeface="monospace" />
+			android:singleLine="true"
+
+    <TextView
+        android:id="@+id/log_output_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pid_text"
+        android:layout_toRightOf="@+id/log_level_text"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:text="Blah blah blah a bunch of output"
+        android:textSize="12sp"
+        android:typeface="monospace" />
+
+</RelativeLayout>
